@@ -1,4 +1,4 @@
-# About simpleCardLink_for_Wordpress
+# ■ About simpleCardLink_for_Wordpress
 WordPressテーマ「JIN」に対応したリンクカードを作成するWordPressプラグインです。
 
 aタグを勝手にpタグで囲み、不自然な余白を作ってしまうWordPressの仕様を避け、比較的キレイにリンクカードが挿入されるようにしています。
