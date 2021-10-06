@@ -23,8 +23,14 @@ aタグを勝手にpタグで囲み、不自然な余白を作ってしまうWor
 
 # ■ 準備編
 ## 1. 当プラグインをWordpressにインストール＆有効化
+1. 上記のファイル群より、「simpleCardLink_forJin.zip」をダウンロード。
+![スクリーンショット 2021-10-06 140334](https://user-images.githubusercontent.com/83880991/136143602-dc9544a4-08dd-4491-b41f-4e87b332ebb6.png)
 
+2. WordPressの「ダッシュボード」 → 「プラグイン」を開く。
+
+3. 「新規追加」 → 「プラグインのアップロード」より①でダウンロードしたzipファイルをアップロードしてください。
 
 ## 2. 追加CSSに当CSSを追加
+
 
 [SCL title="%title%" desc="説明文はこちら(65字以内、推奨)" url="%url%" imgurl="サムネイル画像のURLはこちら"]
