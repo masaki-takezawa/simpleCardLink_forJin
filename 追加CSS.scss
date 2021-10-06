@@ -1,0 +1,74 @@
+/*外部リンクカード(JINver)*/
+.ly_linkCardWrap {
+  width: 100%;
+	border: 1px solid #ccc;/*外枠の色変更はこちら*/
+	padding: 10px;
+	margin-bottom: 2em;
+}
+
+.ly_linkCardWrap:hover {
+	background-color: #f3f3f3;/*マウスを当てた際の背景色の変更はこちら*/
+}
+
+.ly_linkCard {
+	display: flex;
+	line-height: 1.7;	
+}
+
+.ly_linkCard:hover {
+	text-decoration: none !important;
+}
+
+.bl_imgWrap {
+	display: block;
+	width: calc(100% / 3);
+	min-height: 170px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.bl_body {
+  flex: 1;
+	display: block;
+  padding-left: 10px;
+}
+
+.bl_title {
+	display: block;
+  font-size: 1em;
+  font-weight: bold;
+  color: #68a4d9;/*タイトルの色変更はこちら*/
+	padding: 0;
+}
+
+.bl_title:hover {
+  color: #23527c;/*マウスを当てた際のタイトルの色変更はこちら*/
+	text-decoration: underline;
+}
+
+.bl_description {
+	display: block;
+  font-size: 0.8em;
+	color: #333;/*説明文の色変更はこちら*/
+	padding: 0;
+	margin-top: 5px;
+}
+
+@media only screen and (max-width: 481px) {
+	.ly_linkCard {
+		line-height: 1.5;	
+}
+
+	.bl_imgWrap {
+		width: 50%;
+	}
+	
+	.bl_title {
+		font-size: 13px;
+	}
+
+  .bl_description {
+    font-size: 11px;
+  }
+}
